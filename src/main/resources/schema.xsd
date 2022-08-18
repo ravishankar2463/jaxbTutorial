@@ -1,0 +1,21 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ListProductDTO">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="productDTO" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:long" name="eancode"/>
+                            <xs:element type="xs:string" name="name"/>
+                            <xs:element type="xs:int" name="price"/>
+                            <xs:element type="xs:int" name="weight"/>
+                            <xs:element type="xs:string" name="description"/>
+                            <xs:element type="xs:int" name="quantity"/>
+                            <xs:element type="xs:string" name="categoryName"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ListProductDTO
+        xsi:noNamespaceSchemaLocation="schema.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <productDTO>
+        <eancode>1111111111111</eancode>
+        <name>hamburger</name>
+        <price>10</price>
+        <weight>100</weight>
+        <description>a nice hamburger</description>
+        <quantity>1</quantity>
+        <categoryName>meat</categoryName>
+    </productDTO>
+    <productDTO>
+        <eancode>2111111111111</eancode>
+        <name>banana</name>
+        <price>6</price>
+        <weight>100</weight>
+        <description>a nice banana</description>
+        <quantity>1</quantity>
+        <categoryName> fruit</categoryName>
+    </productDTO>
+    <productDTO>
+        <eancode>3111111111111</eancode>
+        <name>apple</name>
+        <price>10</price>
+        <weight>100</weight>
+        <description>a nice apple</description>
+        <quantity>1</quantity>
+        <categoryName>fruit</categoryName>
+    </productDTO>
+</ListProductDTO>
